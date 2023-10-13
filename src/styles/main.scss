@@ -1,0 +1,83 @@
+header {
+    display: flex;
+    justify-content: center;
+}
+
+.culture {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    padding: 5vw;
+
+    &__list {
+        display: flex;
+        align-items: center;
+
+        &__item {
+
+            
+            h4 {
+                margin-left: 60px;
+                
+            }
+        }
+    }
+    img {
+        width: 100%;
+        border-radius: 6px;
+    }
+
+}
+
+.livros {
+    padding: 5vw;
+    background-color: #fff;
+    
+    h2{
+        padding-bottom: 96px;
+        font-size: xx-large;
+    }
+
+    img {
+        height: 600px;
+        border-radius: 6px;
+
+    }
+
+    &__list {
+        max-width: 100%;
+
+        &__item {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+
+            h3 {
+                color: black;
+                padding-top: 20px;
+            }
+
+            p {
+                font-weight: bold;
+            }
+        }
+    }
+}
+
+.footer {
+    max-width: 100%;
+    background-color: #fff;
+    padding-bottom: 36px;
+    text-align: center;
+
+    img {
+        max-width: 25%;
+        border-radius: 6px;
+        margin-bottom: 36px;
+    }
+    
+    p {
+        margin: 0;
+    }
+}
