@@ -70,6 +70,7 @@ header {
     background-color: #fff;
     padding-bottom: 36px;
     text-align: center;
+   
 
     img {
         max-width: 25%;
@@ -80,4 +81,30 @@ header {
     p {
         margin: 0;
     }
+}
+
+.link {
+    max-width: 1024px;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 24px;
+    font-size: 24px;
+
+    a {
+        text-decoration: none;
+    }
+
+    img {
+        margin-right: 5px;
+        height: 30px;
+    }
+}
+
+.links {
+    max-width: 1024px;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    align-items: center;
+
 }
